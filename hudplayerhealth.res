@@ -5,10 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-160"		[$WIN32]
+		"xpos"			"c-250"		[$WIN32]
 		"ypos"			"c25"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -35,14 +33,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"655555"
+		"ypos"			"405555"
 		"zpos"			"3"
-		"wide"			"555555"
-		"tall"			"555555"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"75"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -68,8 +65,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"69"
-		"ypos"			"54"	[$WIN32]
+		"xpos"			"131"
+		"ypos"			"56"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"30"
@@ -78,8 +75,50 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BikoRegular36"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"254 254 228 255"
 	}
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"132"
+		"ypos"			"56"	[$WIN32]
+		"zpos"			"3"
+		"wide"			"60"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"BikoRegular36"
+		"fgcolor"		"0 0 0 255"
+	}
+	
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"133"
+		"ypos"			"83"
+		"zpos"			"2"
+		"wide"			"54"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -91,8 +130,8 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
