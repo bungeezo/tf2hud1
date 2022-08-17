@@ -3100,6 +3100,79 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//Biko Bold fonts
+		
+		
+		BikoBold12
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"12"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold16
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"16"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold18
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"18"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold24
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"24"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold12
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"30"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold12
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"36"	
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold42
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"42"	
+				"antialias" "1"
+			}
+		}
 	}
 	
 	//
